@@ -94,9 +94,68 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* main */
 
 body{
-    background-image: url("/img/background.png");
+    background-image: url("http://i.imgur.com/nWFtx1P.png?1");
+}
+
+/* header */
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+/* intro */
+.intro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
+}
+
+h1 {
+    font-family: 'Noticia Text', serif;
+    color: #f6515d;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* signup */
+h2{
+    font-family: "WisdomScript";
+
+
+}
+
+@font-face {
+    font-family: "WisdomScript"; 
+    src: url("https://www.dropbox.com/s/o4a4tv99h5ic7ji/WisdomScript.otf?dl=0");
+}
+
+.signup{
+    background-image: url("http://i.imgur.com/WuPQecD.png");
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    height: 360px;
+
+}
+
+/* recent posts */
+.recent-posts{
+    background-color: #f6515d;
+    height: 350px;
+    overflow: auto;
+}
+
+/* first footer */
+
+/* second footer */
+small{
+    background-color: #f6515d;
+    font-size: 10px;
+    color: black;
 }
 
 
