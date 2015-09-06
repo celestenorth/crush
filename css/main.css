@@ -94,9 +94,282 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* main */
 
 body{
-    background-image: url("/img/background.png");
+    background-image: url("http://i.imgur.com/nWFtx1P.png?1");
+}
+
+/* header */
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+/* intro */
+.intro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+
+}
+
+.welcome-message {
+    font-family: 'Noticia Text', serif;
+    color: #f6515d;
+    font-size: 26px;
+    text-align: center;
+    line-height: 2em;
+    padding-bottom: 45px;
+}
+
+/* signup */
+@font-face {
+    font-family: "WisdomScript"; 
+    src: url("https://dl.dropboxusercontent.com/u/994064/WisdomScript.otf");
+}
+
+.signup{
+    background-image: url("http://i.imgur.com/WuPQecD.png");
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.call-to-action{
+    font-family: "WisdomScript";
+    font-size: 25px;
+    text-shadow: 1px 2px #FFF;
+    padding-top: 50px;
+}
+
+.tagline{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 30px;
+    color: #f6515d;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+#container-signup{
+    display: inline-block;
+    width: 750px;
+}
+
+#mc_embed_signup_scroll{
+    display: flex;
+}
+
+#mce-EMAIL{
+    background-color: #fefcf2;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cab8;
+    width: 500px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 20px;
+    color: #c4bfa8;
+    text-indent: 25px;
+    float: left;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.button-signup{
+    background-color: #f6515d;
+    color: #fff;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    width: 250px;
+    height: 54px;
+}
+
+/* recent posts */
+.recent-posts{
+    background-color: #f6515d;
+    height: 450px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.blog-header{
+    font-family: "WisdomScript";
+    font-size: 25px;
+    padding-top: 25px;
+    color: #333333;
+    font-weight: lighter;
+    line-height: 29px;
+    text-align: center;
+}
+
+.posts{
+    width: 100%;
+    height: 100%;
+}
+
+.post-header{
+    font-family: "Noticia Text", serif;
+    font-size: 20px;
+    color: #333333;
+    border-bottom-style: dotted;
+    border-bottom-color: #333333;
+    border-width: thin;
+    width: 300px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.post-info{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    color: #333333;
+}
+
+.post-abstract{
+    font-family: "Georgia", serif;
+    font-size: 14px;
+    width: 300px;
+    float: left;
+    line-height: 25px;
+    color: #333333;
+}
+
+a {
+    font-family: "Georgia", serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff0da;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#post-1{
+    padding-right: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+#post-2{
+    display: inline-block;
+    padding-right: 30px;
+    text-align: left;
+}
+
+#post-3{
+    display: inline-block;
+    text-align: left;
+}
+
+/* first footer */
+.contact{
+    background-color: #333333;
+    height: 430px;
+    text-align: center;
+}
+
+#about-us{
+    font-family: "Georgia", serif;
+    color: #fff0da;
+    width: 460px;
+    line-height: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    vertical-align: top;
+}
+.about-header{
+    font-family: "WisdomScript";
+    font-size: 28px;
+    color: #fff0da;
+    text-shadow: 0px 1px 0px rgba(51, 51, 51, 1);
+    font-weight: normal;
+}
+
+.contact-form{
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    line-height: 25px;
+}
+
+input, textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #7a7063;
+    background-color: #fff0da;
+    height: 35px;
+    width: 95%;
+    display: inline-block;
+}
+
+textarea {
+    height: 100px;
+}
+
+#name-form{
+    width: 40%;
+    float: left;
+    padding-left: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#email-form{
+    width: 50%;
+    padding-left: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#message-form{
+    padding-left: 10px;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button-form{
+    background-color: #dcc199;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 170px;
+    height: 35px;
+    float: right;
+    margin: 5px;
+
+
+}
+
+/* second footer */
+.copyright{
+    overflow: auto;
+    background-color: #f6515d;
+    height: 30px;
+    text-align: center;
+}
+
+small{
+    background-color: #f6515d;
+    font-size: 10px;
+    color: #333333;
+    vertical-align: bottom;
 }
 
 
