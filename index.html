@@ -12,6 +12,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
         <link href='https://fonts.googleapis.com/css?family=Noticia+Text:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://dl.dropboxusercontent.com/u/994064/WisdomScript.otf" rel="stylesheet" type="text/css" >
     </head>
     <body>
 
@@ -23,54 +24,85 @@
 
     <img class="logo" src="http://i.imgur.com/8CU2lEL.png?1" alt="Skillcrush Logo"/>    
     <header class="intro">
-        <h1>Wether you're conquering Tumblr, befriending CSS, or just getting a better handle of how the web works, Skillcrush has a path for you.</h1>
+        <h1 class="welcome-message">Whether you're conquering Tumblr, befriending CSS, or just getting a better handle of how the web works, Skillcrush has a path for you.</h1>
     </header>
 
 
     <section class="signup">
-        <h2>Sign up for a our newsletter, launching April 1st.</h2>
-        <h3>30 DAYS TO A WEB-SAVVIER YOU</h3>
+        <h2 class="call-to-action">Sign up for our newsletter, launching April 1st.</h2>
+        <h3 class="tagline">30 DAYS TO A WEB-SAVVIER YOU</h3>
 
         <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
-        <form action="//celestenorth.us7.list-manage.com/subscribe/post?u=b794fd141fa5f193c50968cb5&amp;id=9f35c7129f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="container-signup">
+        <div id="mc-embed-signup">
+            <form action="//celestenorth.us7.list-manage.com/subscribe/post?u=b794fd141fa5f193c50968cb5&amp;id=9f35c7129f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            
             <div id="mc_embed_signup_scroll">
-        <div class="mc-field-group">
-            <!-- <label for="mce-EMAIL">Email Address </label> -->
-            <input type="email" value="Your Email Address" name="EMAIL" class="required email" id="mce-EMAIL">
-        </div>
+            
+                <div class="mc-field-group">
+                <!-- <label for="mce-EMAIL">Email Address </label> -->
+                <input type="email" value="Your E-mail Address" name="EMAIL" class="required-email" id="mce-EMAIL">
+                </div>
+            
             <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
                 <div class="response" id="mce-success-response" style="display:none"></div>
             </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            
             <div style="position: absolute; left: -5000px;"><input type="text" name="b_b794fd141fa5f193c50968cb5_9f35c7129f" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            
+            <input type="submit" value="SIGN UP" name="subscribe" id="mc-embedded-subscribe" class="button-signup">
+            
             </div>
-        </form>
+            </form>
         </div>
-        <!--End mc_embed_signup-->
+        </div>
+        <!--End mc-embed-signup-->
     </section>
 
     <section class="recent-posts">
-        <h4>Our Recent Blog Posts</h4>       
+        <h4 class="blog-header">Our Recent Blog Posts</h4>
+        <div class="posts">
+            <div id="post-1">
+                <h1 class="post-header">Skillcrush, a site for all the ladies who wants to learn tech</h1>
+                <p class="post-info">03.09.12 - by Adda Birnir</p>
+                <p class="post-abstract">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. <a href="http://skillcrush.com/">Read more</a></p>
+            </div>
+            <div id="post-2">
+                <h1 class="post-header">Women in tech naecenas faucibus mollis interdum</h1>
+                <p class="post-info">03.09.12 - by Adda Birnir</p>
+                <p class="post-abstract">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. <a href="http://skillcrush.com/">Read more</a></p>
+            </div>
+            <div id="post-3">
+                <h1 class="post-header">Infographics: The World Wide Web v.s Girls</h1>
+                <p class="post-info">03.09.12 - by Adda Birnir</p>
+                <p class="post-abstract">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur. <a href="http://skillcrush.com/">Read more</a></p>
+            </div>
+        </div>       
     </section>
 
-    <footer>
+    <footer class="contact">
         <div id="about-us">
-            <h4>About skillcrush</h4>
+            <h4 class="about-header">About skillcrush</h4>
+            <p>Skillcrush is eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
-        <div id="contact-form">
-            <h4>Get in touch</h4>
-            <form>
-              Name:<br>
-              <input type="text" name="name">
+        <div class="contact-form">
+            <h4 class="about-header">Get in touch</h4>
+            <form class="bottom-form">
+              <input type="text" value="Name" name="name" id="name-form">
+              <input type="text" value="Email Address" name="email" id="email-form">
               <br>
-              Email Address:<br>
-              <input type="text" name="email">
+              <input type="text" value="Reason of contact" name="reason" style="padding-left:5px; width:96%; margin:5px;
+">
+              <br>
+              <textarea rows="4" cols="50" name="message" id="message-form">Type your message here.</textarea>
+              <br>
+              <button type="submit" value="Submit" class="button-form">Send Message</button>
             </form>
         </div>
     </footer>
-    <footer>
+    <footer class="copyright">
         <small>© 2012 Skillcrush. All Rights Reserved. Made in NYC.</small>
     </footer>
 
